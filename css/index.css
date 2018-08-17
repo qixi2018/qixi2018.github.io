@@ -1,0 +1,110 @@
+html,
+        body {
+            position: relative;
+            height: 100%;
+            font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: antiquewhite;
+            color: #E93D6D;
+        }
+
+        .swiper-container {
+            width: 100%;
+            height: 100%;
+        }
+
+        .fontSize25 {
+            font-size: 25px;
+        }
+
+        .swiper-slide {
+            text-align: center;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            align-items: center;
+        }
+
+        @keyframes fade-in {
+            0% {
+                opacity: 0;
+            }
+            /*初始状态 透明度为0*/
+            40% {
+                opacity: 0;
+            }
+            /*过渡状态 透明度为0*/
+            100% {
+                opacity: 1;
+            }
+            /*结束状态 透明度为1*/
+        }
+
+        .out10 {
+            animation: fade-in;
+            animation-duration: 1.1s;
+        }
+
+        .out15 {
+            animation: fade-in;
+            animation-duration: 2.15s;
+        }
+
+        .out20 {
+            animation: fade-in;
+            animation-duration: 3.2s;
+        }
+
+        .out25 {
+            animation: fade-in;
+            animation-duration: 4.25s;
+        }
+
+        .out30 {
+            animation: fade-in;
+            animation-duration: 5.3s;
+        }
+
+        .out35 {
+            animation: fade-in;
+            animation-duration: 6.35s;
+        }
+
+        .out40 {
+            animation: fade-in;
+            animation-duration: 7.4s;
+        }
+
+        .out45 {
+            animation: fade-in;
+            animation-duration: 8.45s;
+        }
+
+        #main {
+            width: 100vw;
+            height: 70vw;
+        }
+
+        input {
+            background-color: transparent;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+
+        .yes {
+            border: 1px solid #E93D6D;
+            color: #E93D6D;
+        }
+
+        .no {
+            border: 1px solid #000;
+        }
