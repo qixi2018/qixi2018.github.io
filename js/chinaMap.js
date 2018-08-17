@@ -164,7 +164,7 @@ var optionMap = {
 
     //配置属性
     series: [{
-        name: '数据',
+        name: '记忆',
         type: 'map',
         mapType: 'china',
         roam: false,
