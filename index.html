@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>七夕礼物</title>
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="app-mobile-web-app-capable" content="yes">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <div class="swiper-container swiper-container-vertical">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div>
+                    <div class="out10">人生是一段旅程</div>
+                    <div class="out15">在旅行中遇到的每一个人</div>
+                    <div class="out20">每一件事</div>
+                    <div class="out25">每一个美丽景色</div>
+                    <div class="out30">都有可能成为一生中难忘的风景</div>
+                    <div>
+                        <br>
+                    </div>
+                    <div class="out35">一路走来</div>
+                    <div class="out40">你</div>
+                    <div class="out45">是我遇见的最希望能一起看风景的人</div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="fontSize25">
+                    <span class="">一起度过</span>
+                    <canvas id="canvas"></canvas>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="fontSize25">
+                    <span class="">一起去过</span>
+                    <div id="main"></div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div id="click">
+                    <div>所以，你要跟我一起走下去么？</div>
+                    <div>
+                        <input type="button" value="继续" class='yes' onclick="on('yes')">
+                    </div>
+                    <div>
+                        <input type="button" value="不要" class="no" onclick="on('no')">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</body>
+<script type="text/javascript" src="js/jq.min.js"></script>
+<script type="text/javascript" src="js/echarts.min.js"></script>
+<script type="text/javascript" src="js/china.js"></script>
+<script type="text/javascript" src="js/swiper.min.js"></script>
+<script type="text/javascript" src="js/chinaMap.js"></script>
+<script type="text/javascript" src="js/love.js"></script>
+<script type="text/javascript" src="js/swiperPage.js"></script>
+<script>
+    const on = (msg) => {
+        if (msg == 'yes') {
+            alert('么么哒')
+        } else {
+            alert('不许点这个！！！')
+        }
+    }
+</script>
+</html>
